@@ -78,12 +78,12 @@ const HeadlessUiModal = () => {
                     </Dialog.Title>
                     <div className="mt-2">
                       
-                    <div class="">
+                    <div className="">
                        
                     {jsonData.map(function(d, idx){
                     return (
                     <>
-                        <div class="flex">
+                        <div className="flex">
                             <div key={idx} className="flex flex-col items-center mr-4">
                                 <div>
                                     <div className="flex items-center justify-center w-10 h-10 border rounded-full">
@@ -105,16 +105,16 @@ const HeadlessUiModal = () => {
                             )
                         })}
 
-                        <div class="flex">
-                            <div class="flex flex-col items-center mr-4">
+                        <div className="flex">
+                            <div className="flex flex-col items-center mr-4">
                             <div>
-                                <div class="flex items-center justify-center w-10 h-10 border rounded-full">
+                                <div className="flex items-center justify-center w-10 h-10 border rounded-full">
                                 <FaQuestion />
                                 </div>
                             </div>
                             </div>
-                            <div class="pt-1">
-                            <p class="mb-2 text-lg font-bold text-gray-600">What's next?</p>
+                            <div className="pt-1">
+                            <p className="mb-2 text-lg font-bold text-gray-600">What's next?</p>
                             </div>
                         </div>
                     </div>
