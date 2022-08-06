@@ -114,7 +114,7 @@ const HeadlessUiModal = () => {
                             </div>
                             </div>
                             <div className="pt-1">
-                            <p className="mb-2 text-lg font-bold text-gray-600">What's next?</p>
+                            <p className="mb-2 text-lg font-bold text-gray-600">What is next?</p>
                             </div>
                         </div>
                     </div>
