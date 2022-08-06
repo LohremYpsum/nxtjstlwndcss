@@ -28,7 +28,7 @@ export default function Home() {
 
 	    </div>
 
-      <div className="flex flex-wrap max-w-4xl items-center justify-center h-auto h-screen mx-auto sm:my-32 lg:my-0">
+      <div className="flex flex-wrap max-w-4xl items-center justify-center h-auto lg:h-screen mx-auto sm:my-32 lg:my-0 pt-12">
         <div 
           id="profile" 
           className={`w-full lg:w-3/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl opacity-75 mx-6 lg:mx-0 opacity-75 mx-6 lg:mx-0 ${clicked ?  darkMode : lightMode}`}
