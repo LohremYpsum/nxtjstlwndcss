@@ -14,9 +14,10 @@ export default function Home() {
   
   return (
     <div 
-      className="font-sans antialiased text-gray-900 leading-normal tracking-wider bg-cover"
+      className="font-sans antialiased text-gray-900 leading-normal tracking-wider bg-cover w-full h-screen"
       style={{
         backgroundImage: `url(https://source.unsplash.com/iIJrUoeRoCQ)`,
+        display: "block",
       }}
     >
       <div className="absolute top-0 right-0 h-12 w-18 p-4">
@@ -27,14 +28,13 @@ export default function Home() {
 
 	    </div>
 
-      <div className="max-w-4xl flex items-center h-auto lg:h-screen flex-wrap mx-auto my-32 lg:my-0">
+      <div className="flex flex-wrap max-w-4xl items-center justify-center h-auto h-screen mx-auto sm:my-32 lg:my-0">
         <div 
           id="profile" 
           className={`w-full lg:w-3/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl opacity-75 mx-6 lg:mx-0 opacity-75 mx-6 lg:mx-0 ${clicked ?  darkMode : lightMode}`}
           >
           <div className="p-4 md:p-12 text-center lg:text-left">
-         
-            
+        
             <MobileImage />
             <Content />
             
